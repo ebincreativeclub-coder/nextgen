@@ -82,7 +82,7 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: "Vamshi Charma", role: "Founder & Principal Consultant" },
+              { name: "Vamshi Chenna", role: "Founder & Principal Consultant" },
               { name: "Divya Reddy", role: "Director, Operations" },
               { name: "Sneha Bhagavat", role: "Director, Finance & Accounting" }
             ].map((leader, idx) => (
