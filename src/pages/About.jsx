@@ -159,7 +159,7 @@ const About = () => {
             <h4 className="text-white font-bold mb-8 text-center uppercase tracking-widest text-sm">Our Approach</h4>
             <div className="flex flex-wrap justify-center gap-4 md:gap-10">
               {['Understand Individual', 'Assess Strengths', 'Map Opportunities', 'Create Roadmap', 'Ongoing Mentoring'].map((step, idx) => (
-                <div key={idx} className="flex items-center gap-2 text-blue-100/60 font-medium">
+                <div key={idx} className="flex items-center gap-2 text-blue-100/60 font-medium hover:text-white hover:scale-90 transition duration-300 ease-in-out">
                   <div className="w-8 h-8 rounded-full border border-brand-accent text-brand-accent flex items-center justify-center text-xs">
                     {idx === 0 ? <Users size={14} /> : 
                      idx === 1 ? <Target size={14} /> : 

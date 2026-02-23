@@ -128,7 +128,7 @@ const Footer = () => {
         <div className="mt-16 pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-center items-center gap-6">
             <p className="text-white/40 text-xs md:text-sm order-2 md:order-1">
-              © 2025 NextGen Skill EduHub. All rights reserved. <span className="ml-3 text-white hidden md:inline">|</span>
+              © 2025 NextGen Skill EduHub. All rights reserved. <span className="ml-3 text-brand-accent hidden md:inline">|</span>
             </p>
 
             <div className="flex items-center gap-4 md:gap-6 order-1 md:order-2">
